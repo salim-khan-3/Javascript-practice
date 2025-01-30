@@ -6,4 +6,4 @@ function voteYesorNot(year){
         console.log("you can not vote");
     }
 }
-voteYesorNot(50);
+voteYesorNot(17.9999);
