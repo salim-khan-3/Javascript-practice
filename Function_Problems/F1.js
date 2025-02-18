@@ -8,4 +8,4 @@ function findLargeNumber(num1,num2){
     }
 }
 
-console.log(findLargeNumber(15,200));
+console.log(findLargeNumber(15,15));
