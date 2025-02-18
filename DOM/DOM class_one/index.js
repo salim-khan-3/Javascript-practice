@@ -18,9 +18,9 @@ for(let i = 0; i < numeralName.length; i++){
     numeralName[i].innerText = `I m ${i+1} No List Element and i am ${studentList[i]} `
 }
 
-const numeralName = document.getElementsByClassName(`numeral_name`);
+const numeralNameOne = document.getElementsByClassName(`numeral_name`);
 for(let i = 0; i < numeralName.length; i++){
-    numeralName[i].innerText = `I'm No ${i+1} List Element. `
+    numeralNameOne[i].innerText = `I'm No ${i+1} List Element. `
 }
 
 
@@ -28,15 +28,15 @@ for(let i = 0; i < numeralName.length; i++){
 // create element 
 
 // select id
-const studentList = document.getElementById(`student_List`);
+const studentListOne = document.getElementById(`student_List`);
 const students = [];
 
 for(let i = 0; i<students.length;i++){
     const list = document.createElement(`li`);
     list.innerText = `I am a full stack Devloper and i am md ${students[i]}`;
-    studentList.appendChild(list);
+    studentListOne.appendChild(list);
 }
 
 if(students.length === 0){
-    studentList.innerHTML = `<li style = 'color:red'>Every one left the chat!!!</li>`;
+    studentListOne.innerHTML = `<li style = 'color:red'>Every one left the chat!!!</li>`;
 }
